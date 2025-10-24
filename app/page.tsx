@@ -383,7 +383,7 @@ export default function Home() {
                 </ul>
               </div>
               <div>
-                <h4 className="text-xl font-bold text-red-400 mb-4">❌ DON'T SHARE:</h4>
+                <h4 className="text-xl font-bold text-red-400 mb-4">❌ DON&apos;T SHARE:</h4>
                 <ul className="text-gray-300 space-y-2">
                   <li>• Harmful or dangerous content</li>
                   <li>• Other people&apos;s property damage</li>
@@ -649,20 +649,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-black py-12 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-purple-400 mb-4">ANGRY GAMER</h3>
-          <p className="text-gray-400 mb-8">For gamers who rage hard and play harder</p>
-          <div className="flex justify-center space-x-6 text-2xl">
-            <span className="hover:text-red-400 cursor-pointer transition-colors">🎮</span>
-            <span className="hover:text-purple-400 cursor-pointer transition-colors">💥</span>
-            <span className="hover:text-orange-400 cursor-pointer transition-colors">🔥</span>
-            <span className="hover:text-yellow-400 cursor-pointer transition-colors">⚡</span>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }
