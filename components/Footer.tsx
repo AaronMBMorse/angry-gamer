@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-gradient-to-t from-gray-900 to-black py-16 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Main Footer Content */}
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
+        <div className="grid md:grid-cols-5 gap-8 mb-12">
           {/* Brand Section */}
           <div className="md:col-span-2">
             <h3 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-purple-400 mb-4">ANGRY GAMER</h3>
@@ -28,23 +28,50 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Shop */}
           <div>
-            <h4 className="text-xl font-bold text-white mb-4">Quick Links</h4>
+            <h4 className="text-xl font-bold text-white mb-4">Shop</h4>
             <ul className="space-y-3">
               <li>
                 <a href="/products" className="text-gray-400 hover:text-red-400 transition-colors">
-                  Products
+                  All Products
+                </a>
+              </li>
+              <li>
+                <a href="/products#destroyable" className="text-gray-400 hover:text-red-400 transition-colors">
+                  Destroyable Gear
+                </a>
+              </li>
+              <li>
+                <a href="/products#safety" className="text-gray-400 hover:text-red-400 transition-colors">
+                  Safety Equipment
+                </a>
+              </li>
+              <li>
+                <a href="/products#budget" className="text-gray-400 hover:text-red-400 transition-colors">
+                  Budget Collection
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Community */}
+          <div>
+            <h4 className="text-xl font-bold text-white mb-4">Community</h4>
+            <ul className="space-y-3">
+              <li>
+                <a href="/community" className="text-gray-400 hover:text-red-400 transition-colors">
+                  Community Hub
                 </a>
               </li>
               <li>
                 <a href="/reviews" className="text-gray-400 hover:text-red-400 transition-colors">
-                  Reviews
+                  Customer Reviews
                 </a>
               </li>
               <li>
-                <a href="/community" className="text-gray-400 hover:text-red-400 transition-colors">
-                  Community
+                <a href="/therapeutic" className="text-gray-400 hover:text-red-400 transition-colors">
+                  Rage Therapy
                 </a>
               </li>
               <li>
@@ -75,7 +102,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <a href="/help-center" className="text-gray-400 hover:text-red-400 transition-colors">
                   Contact Us
                 </a>
               </li>
@@ -151,14 +178,14 @@ export default function Footer() {
               <p>&copy; 2024 Angry Gamer. All rights reserved. | Made with 💥 and lots of rage</p>
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="hover:text-red-400 transition-colors">
+              <a href="/privacy-policy" className="hover:text-red-400 transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="hover:text-red-400 transition-colors">
+              <a href="/terms-of-service" className="hover:text-red-400 transition-colors">
                 Terms of Service
               </a>
-              <a href="#" className="hover:text-red-400 transition-colors">
-                Cookie Policy
+              <a href="/disclaimers" className="hover:text-red-400 transition-colors">
+                Disclaimers
               </a>
             </div>
           </div>
