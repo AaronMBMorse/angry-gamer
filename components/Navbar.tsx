@@ -27,7 +27,7 @@ export default function Navbar() {
             <Link href="/therapeutic" className="text-white hover:text-red-400 transition-colors font-medium">
               Therapy
             </Link>
-            <Link href="#community" className="text-white hover:text-red-400 transition-colors font-medium">
+            <Link href="/community" className="text-white hover:text-red-400 transition-colors font-medium">
               Community
             </Link>
             <Link href="/disclaimers" className="text-white hover:text-red-400 transition-colors font-medium">
@@ -70,7 +70,7 @@ export default function Navbar() {
               <Link href="/therapeutic" className="block px-3 py-2 text-white hover:text-red-400 transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>
                 Therapy
               </Link>
-              <Link href="#community" className="block px-3 py-2 text-white hover:text-red-400 transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/community" className="block px-3 py-2 text-white hover:text-red-400 transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>
                 Community
               </Link>
               <Link href="/disclaimers" className="block px-3 py-2 text-white hover:text-red-400 transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>

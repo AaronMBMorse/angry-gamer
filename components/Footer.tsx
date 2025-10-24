@@ -43,7 +43,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/#community" className="text-gray-400 hover:text-red-400 transition-colors">
+                <a href="/community" className="text-gray-400 hover:text-red-400 transition-colors">
                   Community
                 </a>
               </li>
@@ -60,17 +60,17 @@ export default function Footer() {
             <h4 className="text-xl font-bold text-white mb-4">Support</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <a href="/help-center" className="text-gray-400 hover:text-red-400 transition-colors">
                   Help Center
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <a href="/warranty" className="text-gray-400 hover:text-red-400 transition-colors">
                   Warranty Info
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <a href="/returns" className="text-gray-400 hover:text-red-400 transition-colors">
                   Returns
                 </a>
               </li>
